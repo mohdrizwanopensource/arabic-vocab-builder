@@ -1,149 +1,1927 @@
 [
   {
     "id": "1",
+    "word": "salām / salāmun",
+    "arabic": "سَلَام",
+    "meaning": "Peace",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "السَّلَامُ عَلَيْكُمْ",
+      "translation": "Peace be upon you"
+    }
+  },
+  {
+    "id": "2",
+    "word": "tahiyyah / tahiyyatun",
+    "arabic": "تَحِيَّة",
+    "meaning": "Greeting / Salutation",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "التَّحِيَّةُ وَالتَّعَارُفُ",
+      "translation": "Greetings and getting acquainted"
+    }
+  },
+  {
+    "id": "3",
+    "word": "ta'āruf / ta'ārufun",
+    "arabic": "تَعَارُف",
+    "meaning": "Getting to know each other",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "هَذَا حِوَارُ التَّعَارُفِ",
+      "translation": "This is an introductory conversation"
+    }
+  },
+  {
+    "id": "4",
+    "word": "hiwār / hiwārun",
+    "arabic": "حِوَار",
+    "meaning": "Conversation / Dialogue",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "الحِوَارُ الأَوَّلُ",
+      "translation": "The first dialogue"
+    }
+  },
+  {
+    "id": "5",
+    "word": "ism / ismun",
+    "arabic": "اِسْم",
+    "meaning": "Name / Noun",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "مَا اسْمُكَ؟",
+      "translation": "What is your name?"
+    }
+  },
+  {
+    "id": "6",
+    "word": "kayfa / kaifa",
+    "arabic": "كَيْفَ",
+    "meaning": "How?",
+    "partOfSpeech": "interrogative",
+    "exampleSentence": {
+      "arabic": "كَيْفَ حَالُكَ؟",
+      "translation": "How are you?"
+    }
+  },
+  {
+    "id": "7",
+    "word": "hāl / haalun",
+    "arabic": "حَال",
+    "meaning": "Condition / State / Health",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "الحَالُ بِخَيْرٍ",
+      "translation": "The condition is fine"
+    }
+  },
+  {
+    "id": "8",
+    "word": "khayr / khairun",
+    "arabic": "خَيْر",
+    "meaning": "Good / Fine / Goodness",
+    "partOfSpeech": "noun / adjective",
+    "exampleSentence": {
+      "arabic": "بِخَيْرٍ، وَالحَمْدُ لِلَّهِ",
+      "translation": "Fine, and all praise is for Allah"
+    }
+  },
+  {
+    "id": "9",
+    "word": "hamd / hamdun",
+    "arabic": "حَمْد",
+    "meaning": "Praise / Gratitude",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "الحَمْدُ لِلَّهِ",
+      "translation": "All praise is for Allah"
+    }
+  },
+  {
+    "id": "10",
+    "word": "shukran",
+    "arabic": "شُكْرًا",
+    "meaning": "Thank you",
+    "partOfSpeech": "expression",
+    "exampleSentence": {
+      "arabic": "شُكْرًا جَزِيلًا",
+      "translation": "Thank you very much"
+    }
+  },
+  {
+    "id": "11",
+    "word": "'afwan",
+    "arabic": "عَفْوًا",
+    "meaning": "You're welcome / Excuse me",
+    "partOfSpeech": "expression",
+    "exampleSentence": {
+      "arabic": "عَفْوًا، أَيْنَ المَكْتَبُ؟",
+      "translation": "Excuse me, where is the office?"
+    }
+  },
+  {
+    "id": "12",
+    "word": "marhaban",
+    "arabic": "مَرْحَبًا",
+    "meaning": "Hello / Welcome",
+    "partOfSpeech": "expression",
+    "exampleSentence": {
+      "arabic": "مَرْحَبًا بِكَ يَا أَخِي",
+      "translation": "Welcome, my brother"
+    }
+  },
+  {
+    "id": "13",
+    "word": "ahlan wa sahlan",
+    "arabic": "أَهْلًا وَسَهْلًا",
+    "meaning": "Welcome",
+    "partOfSpeech": "expression",
+    "exampleSentence": {
+      "arabic": "أَهْلًا وَسَهْلًا بِكُمْ",
+      "translation": "Welcome to all of you"
+    }
+  },
+  {
+    "id": "14",
+    "word": "ma'a as-salāmah",
+    "arabic": "مَعَ السَّلَامَةِ",
+    "meaning": "Goodbye / Farewell",
+    "partOfSpeech": "expression",
+    "exampleSentence": {
+      "arabic": "مَعَ السَّلَامَةِ، إِلَى اللِّقَاءِ",
+      "translation": "Goodbye, until we meet again"
+    }
+  },
+  {
+    "id": "15",
+    "word": "min fadlik",
+    "arabic": "مِنْ فَضْلِكَ",
+    "meaning": "Please (to a male)",
+    "partOfSpeech": "expression",
+    "exampleSentence": {
+      "arabic": "سَاعِدْنِي مِنْ فَضْلِكَ",
+      "translation": "Help me, please"
+    }
+  },
+  {
+    "id": "16",
+    "word": "hādhā / haadha",
+    "arabic": "هَذَا",
+    "meaning": "This (Masculine)",
+    "partOfSpeech": "demonstrative pronoun",
+    "exampleSentence": {
+      "arabic": "هَذَا كِتَابٌ",
+      "translation": "This is a book"
+    }
+  },
+  {
+    "id": "17",
+    "word": "hādhihi / haadhihi",
+    "arabic": "هَذِهِ",
+    "meaning": "This (Feminine)",
+    "partOfSpeech": "demonstrative pronoun",
+    "exampleSentence": {
+      "arabic": "هَذِهِ مَدْرَسَةٌ",
+      "translation": "This is a school"
+    }
+  },
+  {
+    "id": "18",
+    "word": "dhālika / dhaalika",
+    "arabic": "ذَلِكَ",
+    "meaning": "That (Masculine)",
+    "partOfSpeech": "demonstrative pronoun",
+    "exampleSentence": {
+      "arabic": "ذَلِكَ قَلَمٌ",
+      "translation": "That is a pen"
+    }
+  },
+  {
+    "id": "19",
+    "word": "tilka",
+    "arabic": "تِلْكَ",
+    "meaning": "That (Feminine)",
+    "partOfSpeech": "demonstrative pronoun",
+    "exampleSentence": {
+      "arabic": "تِلْكَ سَيَّارَةٌ",
+      "translation": "That is a car"
+    }
+  },
+  {
+    "id": "20",
+    "word": "fī / fi",
+    "arabic": "فِي",
+    "meaning": "In / Inside",
+    "partOfSpeech": "preposition",
+    "exampleSentence": {
+      "arabic": "المَاءُ فِي الكُوبِ",
+      "translation": "The water is in the cup"
+    }
+  },
+  {
+    "id": "21",
+    "word": "ilā / ila",
+    "arabic": "إِلَى",
+    "meaning": "To / Towards",
+    "partOfSpeech": "preposition",
+    "exampleSentence": {
+      "arabic": "ذَهَبَ إِلَى المَدْرَسَةِ",
+      "translation": "He went to the school"
+    }
+  },
+  {
+    "id": "22",
+    "word": "'alā / ala",
+    "arabic": "عَلَى",
+    "meaning": "On / Upon",
+    "partOfSpeech": "preposition",
+    "exampleSentence": {
+      "arabic": "الكِتَابُ عَلَى المَكْتَبِ",
+      "translation": "The book is on the desk"
+    }
+  },
+  {
+    "id": "23",
+    "word": "min",
+    "arabic": "مِنْ",
+    "meaning": "From / Out of",
+    "partOfSpeech": "preposition",
+    "exampleSentence": {
+      "arabic": "خَرَجَ مِنَ البَيْتِ",
+      "translation": "He left the house"
+    }
+  },
+  {
+    "id": "24",
+    "word": "li / la",
+    "arabic": "لِـ",
+    "meaning": "For / Belonging to",
+    "partOfSpeech": "preposition",
+    "exampleSentence": {
+      "arabic": "هَذَا لَكَ",
+      "translation": "This is for you"
+    }
+  },
+  {
+    "id": "25",
+    "word": "ma'a / ma'",
+    "arabic": "مَعَ",
+    "meaning": "With / Together with",
+    "partOfSpeech": "preposition",
+    "exampleSentence": {
+      "arabic": "أَنَا مَعَ خَلِيلِي",
+      "translation": "I am with my friend"
+    }
+  },
+  {
+    "id": "26",
+    "word": "bi",
+    "arabic": "بِـ",
+    "meaning": "At / In / With / By",
+    "partOfSpeech": "preposition",
+    "exampleSentence": {
+      "arabic": "كَتَبْتُ بِالقَلَمِ",
+      "translation": "I wrote with the pen"
+    }
+  },
+  {
+    "id": "27",
+    "word": "hattā / hatta",
+    "arabic": "حَتَّى",
+    "meaning": "Until / Till / Up to",
+    "partOfSpeech": "preposition / particle",
+    "exampleSentence": {
+      "arabic": "سَلَامٌ هِيَ حَتَّى مَطْلَعِ الفَجْرِ",
+      "translation": "Peace it is until the emergence of dawn"
+    }
+  },
+  {
+    "id": "28",
+    "word": "mundhu",
+    "arabic": "مُنْذُ",
+    "meaning": "Since / Ago",
+    "partOfSpeech": "preposition",
+    "exampleSentence": {
+      "arabic": "مُنْذُ يَوْمَيْنِ",
+      "translation": "Since two days ago"
+    }
+  },
+  {
+    "id": "29",
+    "word": "'an",
+    "arabic": "عَنْ",
+    "meaning": "About / Away from",
+    "partOfSpeech": "preposition",
+    "exampleSentence": {
+      "arabic": "تَحَدَّثَ عَنِ الكِتَابِ",
+      "translation": "He spoke about the book"
+    }
+  },
+  {
+    "id": "30",
+    "word": "ka",
+    "arabic": "كَـ",
+    "meaning": "Like / As",
+    "partOfSpeech": "preposition",
+    "exampleSentence": {
+      "arabic": "هُوَ كَالقَمَرِ فِي الجَمَالِ",
+      "translation": "He is like the moon in beauty"
+    }
+  },
+  {
+    "id": "31",
+    "word": "wahdah / wahdatun",
+    "arabic": "وَحْدَة",
+    "meaning": "Chapter / Unit",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "الوَحْدَةُ الأُولَى",
+      "translation": "The first unit"
+    }
+  },
+  {
+    "id": "32",
+    "word": "awwal",
+    "arabic": "أَوَّل",
+    "meaning": "First (Masculine)",
+    "partOfSpeech": "ordinal number / adjective",
+    "exampleSentence": {
+      "arabic": "الدَّرْسُ الأَوَّلُ",
+      "translation": "The first lesson"
+    }
+  },
+  {
+    "id": "33",
+    "word": "ūlā / uula",
+    "arabic": "أُولَى",
+    "meaning": "First (Feminine)",
+    "partOfSpeech": "ordinal number / adjective",
+    "exampleSentence": {
+      "arabic": "الصَّفْحَةُ الأُولَى",
+      "translation": "The first page"
+    }
+  },
+  {
+    "id": "34",
+    "word": "'ard / ardun",
+    "arabic": "عَرْض",
+    "meaning": "Presentation / Display",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "عَرْضُ الدَّرْسِ",
+      "translation": "Presentation of the lesson"
+    }
+  },
+  {
+    "id": "35",
+    "word": "dars / darsun",
+    "arabic": "دَرْس",
+    "meaning": "Lesson / Study",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "هَذَا دَرْسٌ مُهِمٌّ",
+      "translation": "This is an important lesson"
+    }
+  },
+  {
+    "id": "36",
+    "word": "khalīl / khaleelun",
+    "arabic": "خَلِيل",
+    "meaning": "Close friend / Companion",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "هُوَ خَلِيلِي المُخْلِصُ",
+      "translation": "He is my sincere close friend"
+    }
+  },
+  {
+    "id": "37",
+    "word": "a'lā / a'ala",
+    "arabic": "أَعْلَى",
+    "meaning": "Highest / Above / Upper",
+    "partOfSpeech": "adjective",
+    "exampleSentence": {
+      "arabic": "فِي الطَّابَقِ الأَعْلَى",
+      "translation": "On the top floor"
+    }
+  },
+  {
+    "id": "38",
+    "word": "anā",
+    "arabic": "أَنَا",
+    "meaning": "I",
+    "partOfSpeech": "personal pronoun",
+    "exampleSentence": {
+      "arabic": "أَنَا طَالِبٌ",
+      "translation": "I am a student"
+    }
+  },
+  {
+    "id": "39",
+    "word": "anta",
+    "arabic": "أَنْتَ",
+    "meaning": "You (Masculine Singular)",
+    "partOfSpeech": "personal pronoun",
+    "exampleSentence": {
+      "arabic": "أَنْتَ صَدِيقِي",
+      "translation": "You are my friend"
+    }
+  },
+  {
+    "id": "40",
+    "word": "anti",
+    "arabic": "أَنْتِ",
+    "meaning": "You (Feminine Singular)",
+    "partOfSpeech": "personal pronoun",
+    "exampleSentence": {
+      "arabic": "أَنْتِ طَالِبَةٌ مَاهِرَةٌ",
+      "translation": "You are a skilled student"
+    }
+  },
+  {
+    "id": "41",
+    "word": "huwa",
+    "arabic": "هُوَ",
+    "meaning": "He / It (Masculine)",
+    "partOfSpeech": "personal pronoun",
+    "exampleSentence": {
+      "arabic": "هُوَ أُسْتَاذٌ",
+      "translation": "He is a professor"
+    }
+  },
+  {
+    "id": "42",
+    "word": "hiya",
+    "arabic": "هِيَ",
+    "meaning": "She / It (Feminine)",
+    "partOfSpeech": "personal pronoun",
+    "exampleSentence": {
+      "arabic": "هِيَ طَبِيبَةٌ",
+      "translation": "She is a doctor"
+    }
+  },
+  {
+    "id": "43",
+    "word": "nahnu",
+    "arabic": "نَحْنُ",
+    "meaning": "We",
+    "partOfSpeech": "personal pronoun",
+    "exampleSentence": {
+      "arabic": "نَحْنُ نَتَعَلَّمُ العَرَبِيَّةَ",
+      "translation": "We are learning Arabic"
+    }
+  },
+  {
+    "id": "44",
+    "word": "antum",
+    "arabic": "أَنْتُمْ",
+    "meaning": "You all (Masculine Plural)",
+    "partOfSpeech": "personal pronoun",
+    "exampleSentence": {
+      "arabic": "أَنْتُمْ مُجْتَهِدُونَ",
+      "translation": "You all are hardworking"
+    }
+  },
+  {
+    "id": "45",
+    "word": "man",
+    "arabic": "مَنْ",
+    "meaning": "Who?",
+    "partOfSpeech": "interrogative",
+    "exampleSentence": {
+      "arabic": "مَنْ أَنْتَ؟",
+      "translation": "Who are you?"
+    }
+  },
+  {
+    "id": "46",
+    "word": "mā / mādhā",
+    "arabic": "مَا / مَاذَا",
+    "meaning": "What?",
+    "partOfSpeech": "interrogative",
+    "exampleSentence": {
+      "arabic": "مَا هَذَا؟",
+      "translation": "What is this?"
+    }
+  },
+  {
+    "id": "47",
+    "word": "ayna",
+    "arabic": "أَيْنَ",
+    "meaning": "Where?",
+    "partOfSpeech": "interrogative",
+    "exampleSentence": {
+      "arabic": "أَيْنَ أَنْتَ؟",
+      "translation": "Where are you?"
+    }
+  },
+  {
+    "id": "48",
+    "word": "matā",
+    "arabic": "مَتَى",
+    "meaning": "When?",
+    "partOfSpeech": "interrogative",
+    "exampleSentence": {
+      "arabic": "مَتَى يَبْدَأُ الدَّرْسُ؟",
+      "translation": "When does the lesson begin?"
+    }
+  },
+  {
+    "id": "49",
+    "word": "limādhā",
+    "arabic": "لِمَاذَا",
+    "meaning": "Why?",
+    "partOfSpeech": "interrogative",
+    "exampleSentence": {
+      "arabic": "لِمَاذَا تَتَعَلَّمُ العَرَبِيَّةَ؟",
+      "translation": "Why are you learning Arabic?"
+    }
+  },
+  {
+    "id": "50",
+    "word": "kam",
+    "arabic": "كَمْ",
+    "meaning": "How much? / How many?",
+    "partOfSpeech": "interrogative",
+    "exampleSentence": {
+      "arabic": "كَمْ كِتَابًا عِنْدَكَ؟",
+      "translation": "How many books do you have?"
+    }
+  },
+  {
+    "id": "51",
+    "word": "hal",
+    "arabic": "هَلْ",
+    "meaning": "Is / Are / Do? (Yes/No Question)",
+    "partOfSpeech": "interrogative particle",
+    "exampleSentence": {
+      "arabic": "هَلْ هَذَا كِتَابُكَ؟",
+      "translation": "Is this your book?"
+    }
+  },
+  {
+    "id": "52",
+    "word": "na'am",
+    "arabic": "نَعَمْ",
+    "meaning": "Yes",
+    "partOfSpeech": "particle",
+    "exampleSentence": {
+      "arabic": "نَعَمْ، أَنَا جَاهِزٌ",
+      "translation": "Yes, I am ready"
+    }
+  },
+  {
+    "id": "53",
+    "word": "lā",
+    "arabic": "لَا",
+    "meaning": "No / Not",
+    "partOfSpeech": "particle",
+    "exampleSentence": {
+      "arabic": "لَا، لَسْتُ هُنَاكَ",
+      "translation": "No, I am not there"
+    }
+  },
+  {
+    "id": "54",
     "word": "kitāb / kitābun",
     "arabic": "كِتَاب",
     "meaning": "Book",
     "partOfSpeech": "noun",
     "exampleSentence": {
-      "arabic": "هَذَا كِتَابٌ جَدِيدٌ",
-      "translation": "This is a new book"
+      "arabic": "هَذَا كِتَابٌ نَافِعٌ",
+      "translation": "This is a beneficial book"
     }
   },
   {
-    "id": "2",
+    "id": "55",
     "word": "qalam / qalamun",
     "arabic": "قَلَم",
-    "meaning": "Pen",
+    "meaning": "Pen / Pencil",
     "partOfSpeech": "noun",
     "exampleSentence": {
-      "arabic": "القَلَمُ عَلَى المَكْتَبِ",
-      "translation": "The pen is on the desk"
+      "arabic": "أَعْطِنِي القَلَمَ",
+      "translation": "Give me the pen"
     }
   },
   {
-    "id": "3",
-    "word": "bayt / baytun",
-    "arabic": "بَيْت",
-    "meaning": "House",
+    "id": "56",
+    "word": "daftar / daftarun",
+    "arabic": "دَفْتَر",
+    "meaning": "Notebook",
     "partOfSpeech": "noun",
     "exampleSentence": {
-      "arabic": "هَذَا بَيْتٌ كَبِيرٌ وَجَمِيلٌ",
-      "translation": "This is a big and beautiful house"
+      "arabic": "كَتَبْتُ فِي الدَّفْتَرِ",
+      "translation": "I wrote in the notebook"
     }
   },
   {
-    "id": "4",
-    "word": "madrasah / madrasatun",
-    "arabic": "مَدْرَسَة",
-    "meaning": "School",
-    "partOfSpeech": "noun",
-    "exampleSentence": {
-      "arabic": "المَدْرَسَةُ قَرِيبَةٌ مِنْ هُنَا",
-      "translation": "The school is close to here"
-    }
-  },
-  {
-    "id": "5",
-    "word": "sayyārah / sayyāratun",
-    "arabic": "سَيَّارَة",
-    "meaning": "Car",
-    "partOfSpeech": "noun",
-    "exampleSentence": {
-      "arabic": "السَّيَّارَةُ سَرِيعَةٌ جِدًّا",
-      "translation": "The car is very fast"
-    }
-  },
-  {
-    "id": "6",
-    "word": "bāb / bābun",
-    "meaning": "Door",
-    "partOfSpeech": "noun"
-  },
-  {
-    "id": "7",
-    "word": "kursī / kursiyyun",
-    "meaning": "Chair",
-    "partOfSpeech": "noun"
-  },
-  {
-    "id": "8",
+    "id": "57",
     "word": "maktab / maktabun",
     "arabic": "مَكْتَب",
     "meaning": "Desk / Office",
     "partOfSpeech": "noun",
     "exampleSentence": {
-      "arabic": "جَلَسَ الوَلَدُ عَلَى المَكْتَبِ",
-      "translation": "The boy sat at the desk"
+      "arabic": "المَكْتَبُ أَمَامِي",
+      "translation": "The desk is in front of me"
     }
   },
   {
-    "id": "9",
+    "id": "58",
+    "word": "kursī / kursiyyun",
+    "arabic": "كُرْسِيّ",
+    "meaning": "Chair",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "اجْلِسْ عَلَى الكُرْسِيِّ",
+      "translation": "Sit on the chair"
+    }
+  },
+  {
+    "id": "59",
+    "word": "bāb / bābun",
+    "arabic": "بَاب",
+    "meaning": "Door",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "افْتَحِ البَابَ",
+      "translation": "Open the door"
+    }
+  },
+  {
+    "id": "60",
+    "word": "nāfidhah",
+    "arabic": "نَافِذَة",
+    "meaning": "Window",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "النَّافِذَةُ مَفْتُوحَةٌ",
+      "translation": "The window is open"
+    }
+  },
+  {
+    "id": "61",
+    "word": "bayt / baytun",
+    "arabic": "بَيْت",
+    "meaning": "House / Home",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "هَذَا بَيْتِي",
+      "translation": "This is my house"
+    }
+  },
+  {
+    "id": "62",
+    "word": "ghurfah",
+    "arabic": "غُرْفَة",
+    "meaning": "Room",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "غُرْفَةُ الجُلُوسِ كَبِيرَةٌ",
+      "translation": "The living room is big"
+    }
+  },
+  {
+    "id": "63",
+    "word": "madrasah",
+    "arabic": "مَدْرَسَة",
+    "meaning": "School",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "المَدْرَسَةُ جَمِيلَةٌ",
+      "translation": "The school is beautiful"
+    }
+  },
+  {
+    "id": "64",
+    "word": "fasl / faslun",
+    "arabic": "فَصْل",
+    "meaning": "Classroom / Semester / Season",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "الفَصْلُ وَاسِعٌ",
+      "translation": "The classroom is spacious"
+    }
+  },
+  {
+    "id": "65",
+    "word": "jāmi'ah",
+    "arabic": "جَامِعَة",
+    "meaning": "University",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "أَدْرُسُ فِي الجَامِعَةِ",
+      "translation": "I study at the university"
+    }
+  },
+  {
+    "id": "66",
+    "word": "masjid / masjidun",
+    "arabic": "مَسْجِد",
+    "meaning": "Mosque",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "نُصَلِّي فِي المَسْجِدِ",
+      "translation": "We pray in the mosque"
+    }
+  },
+  {
+    "id": "67",
+    "word": "sūq / suuqun",
+    "arabic": "سُوق",
+    "meaning": "Market",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "ذَهَبْتُ إِلَى السُّوقِ",
+      "translation": "I went to the market"
+    }
+  },
+  {
+    "id": "68",
+    "word": "sayyārah",
+    "arabic": "سَيَّارَة",
+    "meaning": "Car",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "السَّيَّارَةُ أَمَامَ البَيْتِ",
+      "translation": "The car is in front of the house"
+    }
+  },
+  {
+    "id": "69",
+    "word": "hāfilah",
+    "arabic": "حَافِلَة",
+    "meaning": "Bus",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "رَكِبْتُ الحَافِلَةَ",
+      "translation": "I rode the bus"
+    }
+  },
+  {
+    "id": "70",
     "word": "shams",
     "arabic": "شَمْس",
     "meaning": "Sun",
     "partOfSpeech": "noun",
     "exampleSentence": {
-      "arabic": "الشَّمْسُ مُشْرِقَةٌ اليَوْمَ",
-      "translation": "The sun is bright today"
+      "arabic": "الشَّمْسُ طَالِعَةٌ",
+      "translation": "The sun is rising"
     }
   },
   {
-    "id": "10",
+    "id": "71",
     "word": "qamar",
     "arabic": "قَمَر",
     "meaning": "Moon",
     "partOfSpeech": "noun",
     "exampleSentence": {
-      "arabic": "القَمَرُ جَمِيلٌ فِي اللَّيْلِ",
-      "translation": "The moon is beautiful at night"
+      "arabic": "القَمَرُ سَاطِعٌ",
+      "translation": "The moon is shining"
     }
   },
   {
-    "id": "11",
+    "id": "72",
     "word": "mā' / mā'un",
+    "arabic": "مَاء",
     "meaning": "Water",
-    "partOfSpeech": "noun"
-  },
-  {
-    "id": "12",
-    "word": "shukran",
-    "meaning": "Thank you",
-    "partOfSpeech": "expression"
-  },
-  {
-    "id": "13",
-    "word": "ta'allama",
-    "arabic": "تَعَلَّمَ",
-    "meaning": "To learn",
-    "partOfSpeech": "verb",
+    "partOfSpeech": "noun",
     "exampleSentence": {
-      "arabic": "تَعَلَّمَ الطَّالِبُ كَلِمَاتٍ جَدِيدَةً",
-      "translation": "The student learned new words"
+      "arabic": "اشْرَبِ المَاءَ",
+      "translation": "Drink the water"
     }
   },
   {
-    "id": "14",
+    "id": "73",
+    "word": "ta'ām / ta'āmun",
+    "arabic": "طَعَام",
+    "meaning": "Food",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "الطَّعَامُ لَذِيذٌ",
+      "translation": "The food is delicious"
+    }
+  },
+  {
+    "id": "74",
+    "word": "khubz",
+    "arabic": "خُبْز",
+    "meaning": "Bread",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "أَكَلْتُ الخُبْزَ",
+      "translation": "I ate the bread"
+    }
+  },
+  {
+    "id": "75",
+    "word": "shāy",
+    "arabic": "شَاي",
+    "meaning": "Tea",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "أَشْرَبُ الشَّايَ السَّاخِنَ",
+      "translation": "I drink hot tea"
+    }
+  },
+  {
+    "id": "76",
+    "word": "qahwah",
+    "arabic": "قَهْوَة",
+    "meaning": "Coffee",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "القَهْوَةُ العَرَبِيَّةُ",
+      "translation": "Arabic coffee"
+    }
+  },
+  {
+    "id": "77",
+    "word": "halīb / haleeb",
+    "arabic": "حَلِيب",
+    "meaning": "Milk",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "الحَلِيبُ مُفِيدٌ لِلصِّحَّةِ",
+      "translation": "Milk is good for health"
+    }
+  },
+  {
+    "id": "78",
+    "word": "ab / abun",
+    "arabic": "أَب",
+    "meaning": "Father",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "أَبِي رَجُلٌ طَيِّبٌ",
+      "translation": "My father is a good man"
+    }
+  },
+  {
+    "id": "79",
+    "word": "umm / ummun",
+    "arabic": "أُمّ",
+    "meaning": "Mother",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "أُمِّي فِي البَيْتِ",
+      "translation": "My mother is in the house"
+    }
+  },
+  {
+    "id": "80",
+    "word": "akh / akhun",
+    "arabic": "أَخ",
+    "meaning": "Brother",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "هَذَا أَخِي الكَبِيرُ",
+      "translation": "This is my older brother"
+    }
+  },
+  {
+    "id": "81",
+    "word": "ukht / ukhtun",
+    "arabic": "أُخْت",
+    "meaning": "Sister",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "أُخْتِي طَالِبَةٌ مَاهِرَةٌ",
+      "translation": "My sister is a smart student"
+    }
+  },
+  {
+    "id": "82",
+    "word": "walad / waladun",
+    "arabic": "وَلَد",
+    "meaning": "Boy / Child",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "الوَلَدُ يَلْعَبُ",
+      "translation": "The boy is playing"
+    }
+  },
+  {
+    "id": "83",
+    "word": "bint / bintun",
+    "arabic": "بِنْت",
+    "meaning": "Girl / Daughter",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "البِنْتُ تَقْرَأُ",
+      "translation": "The girl is reading"
+    }
+  },
+  {
+    "id": "84",
+    "word": "rajul / rajulun",
+    "arabic": "رَجُل",
+    "meaning": "Man",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "ذَلِكَ رَجُلٌ كَرِيمٌ",
+      "translation": "That is a generous man"
+    }
+  },
+  {
+    "id": "85",
+    "word": "imra'ah",
+    "arabic": "اِمْرَأَة",
+    "meaning": "Woman",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "هَذِهِ امْرَأَةٌ صَالِحَةٌ",
+      "translation": "This is a righteous woman"
+    }
+  },
+  {
+    "id": "86",
+    "word": "ustādh",
+    "arabic": "أُسْتَاذ",
+    "meaning": "Professor / Teacher",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "الأُسْتَاذُ يَشْرَحُ الدَّرْسَ",
+      "translation": "The professor explains the lesson"
+    }
+  },
+  {
+    "id": "87",
+    "word": "tālib / taalibun",
+    "arabic": "طَالِب",
+    "meaning": "Student (Male)",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "الطَّالِبُ يَكْتُبُ فِي الدَّفْتَرِ",
+      "translation": "The student writes in the notebook"
+    }
+  },
+  {
+    "id": "88",
+    "word": "sadīq / sadeeq",
+    "arabic": "صَدِيق",
+    "meaning": "Friend",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "صَدِيقِي وَفِيٌّ",
+      "translation": "My friend is loyal"
+    }
+  },
+  {
+    "id": "89",
+    "word": "tabīb / tabeeb",
+    "arabic": "طَبِيب",
+    "meaning": "Doctor / Physician",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "الطَّبِيبُ فِي المُسْتَشْفَى",
+      "translation": "The doctor is at the hospital"
+    }
+  },
+  {
+    "id": "90",
+    "word": "yawm / yawmun",
+    "arabic": "يَوْم",
+    "meaning": "Day",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "اليَوْمُ جَمِيلٌ",
+      "translation": "Today is beautiful"
+    }
+  },
+  {
+    "id": "91",
+    "word": "laylah / laylun",
+    "arabic": "لَيْلَة",
+    "meaning": "Night",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "لَيْلَةٌ سَعِيدَةٌ",
+      "translation": "Good night (Happy night)"
+    }
+  },
+  {
+    "id": "92",
+    "word": "sabāh",
+    "arabic": "صَبَاح",
+    "meaning": "Morning",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "صَبَاحُ الخَيْرِ",
+      "translation": "Good morning"
+    }
+  },
+  {
+    "id": "93",
+    "word": "masā'",
+    "arabic": "مَسَاء",
+    "meaning": "Evening",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "مَسَاءُ الخَيْرِ",
+      "translation": "Good evening"
+    }
+  },
+  {
+    "id": "94",
+    "word": "sā'ah",
+    "arabic": "سَاعَة",
+    "meaning": "Hour / Clock / Watch",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "كَمِ السَّاعَةُ الآنَ؟",
+      "translation": "What time is it now?"
+    }
+  },
+  {
+    "id": "95",
+    "word": "al-āna",
+    "arabic": "الآنَ",
+    "meaning": "Now",
+    "partOfSpeech": "adverb",
+    "exampleSentence": {
+      "arabic": "نَحْنُ مُسْتَعِدُّونَ الآنَ",
+      "translation": "We are ready now"
+    }
+  },
+  {
+    "id": "96",
     "word": "jamīl / jamīlun",
     "arabic": "جَمِيل",
     "meaning": "Beautiful / Handsome",
     "partOfSpeech": "adjective",
     "exampleSentence": {
-      "arabic": "المَنْظَرُ جَمِيلٌ جِدًّا",
-      "translation": "The view is very beautiful"
+      "arabic": "هَذَا مَنْظَرٌ جَمِيلٌ",
+      "translation": "This is a beautiful view"
     }
   },
   {
-    "id": "15",
-    "word": "kabīr",
-    "meaning": "Big / Large",
-    "partOfSpeech": "adjective"
+    "id": "97",
+    "word": "kabīr / kabīrun",
+    "arabic": "كَبِير",
+    "meaning": "Big / Large / Great",
+    "partOfSpeech": "adjective",
+    "exampleSentence": {
+      "arabic": "البَيْتُ كَبِيرٌ",
+      "translation": "The house is big"
+    }
   },
   {
-    "id": "16",
-    "word": "ṣaghīr",
+    "id": "98",
+    "word": "ṣaghīr / sagheer",
+    "arabic": "صَغِير",
     "meaning": "Small / Little",
-    "partOfSpeech": "adjective"
+    "partOfSpeech": "adjective",
+    "exampleSentence": {
+      "arabic": "القَلَمُ صَغِيرٌ",
+      "translation": "The pen is small"
+    }
+  },
+  {
+    "id": "99",
+    "word": "jadīd / jadeed",
+    "arabic": "جَدِيد",
+    "meaning": "New",
+    "partOfSpeech": "adjective",
+    "exampleSentence": {
+      "arabic": "اشْتَرَيْتُ كِتَابًا جَدِيدًا",
+      "translation": "I bought a new book"
+    }
+  },
+  {
+    "id": "100",
+    "word": "qadīm / qadeem",
+    "arabic": "قَدِيم",
+    "meaning": "Old (not new)",
+    "partOfSpeech": "adjective",
+    "exampleSentence": {
+      "arabic": "المَسْجِدُ قَدِيمٌ وَتَارِيخِيٌّ",
+      "translation": "The mosque is old and historical"
+    }
+  },
+  {
+    "id": "101",
+    "word": "sahl / sahlun",
+    "arabic": "سَهْل",
+    "meaning": "Easy / Simple",
+    "partOfSpeech": "adjective",
+    "exampleSentence": {
+      "arabic": "الدَّرْسُ سَهْلٌ",
+      "translation": "The lesson is easy"
+    }
+  },
+  {
+    "id": "102",
+    "word": "ṣa'b / sa'b",
+    "arabic": "صَعْب",
+    "meaning": "Difficult / Hard",
+    "partOfSpeech": "adjective",
+    "exampleSentence": {
+      "arabic": "السُّؤَالُ صَعْبٌ",
+      "translation": "The question is difficult"
+    }
+  },
+  {
+    "id": "103",
+    "word": "qareeb / qarībun",
+    "arabic": "قَرِيب",
+    "meaning": "Near / Close",
+    "partOfSpeech": "adjective",
+    "exampleSentence": {
+      "arabic": "المَسْجِدُ قَرِيبٌ مِنَ البَيْتِ",
+      "translation": "The mosque is near the house"
+    }
+  },
+  {
+    "id": "104",
+    "word": "ba'eed / ba'īdun",
+    "arabic": "بَعِيد",
+    "meaning": "Far / Distant",
+    "partOfSpeech": "adjective",
+    "exampleSentence": {
+      "arabic": "المَطَارُ بَعِيدٌ",
+      "translation": "The airport is far"
+    }
+  },
+  {
+    "id": "105",
+    "word": "nazīf / nazeef",
+    "arabic": "نَظِيف",
+    "meaning": "Clean / Tidy",
+    "partOfSpeech": "adjective",
+    "exampleSentence": {
+      "arabic": "الفَصْلُ نَظِيفٌ جِدًّا",
+      "translation": "The classroom is very clean"
+    }
+  },
+  {
+    "id": "106",
+    "word": "bārid",
+    "arabic": "بَارِد",
+    "meaning": "Cold",
+    "partOfSpeech": "adjective",
+    "exampleSentence": {
+      "arabic": "المَاءُ بَارِدٌ",
+      "translation": "The water is cold"
+    }
+  },
+  {
+    "id": "107",
+    "word": "hārr",
+    "arabic": "حَارّ",
+    "meaning": "Hot",
+    "partOfSpeech": "adjective",
+    "exampleSentence": {
+      "arabic": "الجَوُّ حَارٌّ اليَوْمَ",
+      "translation": "The weather is hot today"
+    }
+  },
+  {
+    "id": "108",
+    "word": "qara'a",
+    "arabic": "قَرَأَ",
+    "meaning": "He read (To read)",
+    "partOfSpeech": "verb",
+    "exampleSentence": {
+      "arabic": "قَرَأَ الطَّالِبُ القُرْآنَ",
+      "translation": "The student read the Quran"
+    }
+  },
+  {
+    "id": "109",
+    "word": "kataba",
+    "arabic": "كَتَبَ",
+    "meaning": "He wrote (To write)",
+    "partOfSpeech": "verb",
+    "exampleSentence": {
+      "arabic": "كَتَبَ الدَّرْسَ بِالقَلَمِ",
+      "translation": "He wrote the lesson with the pen"
+    }
+  },
+  {
+    "id": "110",
+    "word": "dhahaba",
+    "arabic": "ذَهَبَ",
+    "meaning": "He went (To go)",
+    "partOfSpeech": "verb",
+    "exampleSentence": {
+      "arabic": "ذَهَبَ إِلَى السُّوقِ",
+      "translation": "He went to the market"
+    }
+  },
+  {
+    "id": "111",
+    "word": "raja'a",
+    "arabic": "رَجَعَ",
+    "meaning": "He returned (To return)",
+    "partOfSpeech": "verb",
+    "exampleSentence": {
+      "arabic": "رَجَعَ أَبِي مِنَ العَمَلِ",
+      "translation": "My father returned from work"
+    }
+  },
+  {
+    "id": "112",
+    "word": "jalasa",
+    "arabic": "جَلَسَ",
+    "meaning": "He sat (To sit)",
+    "partOfSpeech": "verb",
+    "exampleSentence": {
+      "arabic": "جَلَسَ الوَلَدُ عَلَى الكُرْسِيِّ",
+      "translation": "The boy sat on the chair"
+    }
+  },
+  {
+    "id": "113",
+    "word": "qāma",
+    "arabic": "قَامَ",
+    "meaning": "He stood up / got up",
+    "partOfSpeech": "verb",
+    "exampleSentence": {
+      "arabic": "قَامَ لِلصَّلَاةِ",
+      "translation": "He stood up for prayer"
+    }
+  },
+  {
+    "id": "114",
+    "word": "akala",
+    "arabic": "أَكَلَ",
+    "meaning": "He ate (To eat)",
+    "partOfSpeech": "verb",
+    "exampleSentence": {
+      "arabic": "أَكَلَ التُّفَّاحَةَ",
+      "translation": "He ate the apple"
+    }
+  },
+  {
+    "id": "115",
+    "word": "shariba",
+    "arabic": "شَرِبَ",
+    "meaning": "He drank (To drink)",
+    "partOfSpeech": "verb",
+    "exampleSentence": {
+      "arabic": "شَرِبَ المَاءَ البَارِدَ",
+      "translation": "He drank cold water"
+    }
+  },
+  {
+    "id": "116",
+    "word": "fahima",
+    "arabic": "فَهِمَ",
+    "meaning": "He understood (To understand)",
+    "partOfSpeech": "verb",
+    "exampleSentence": {
+      "arabic": "فَهِمْتُ الدَّرْسَ جَيِّدًا",
+      "translation": "I understood the lesson well"
+    }
+  },
+  {
+    "id": "117",
+    "word": "ta'allama",
+    "arabic": "تَعَلَّمَ",
+    "meaning": "He learned (To learn)",
+    "partOfSpeech": "verb",
+    "exampleSentence": {
+      "arabic": "تَعَلَّمَ اللُّغَةَ العَرَبِيَّةَ",
+      "translation": "He learned the Arabic language"
+    }
+  },
+  {
+    "id": "118",
+    "word": "samia",
+    "arabic": "سَمِعَ",
+    "meaning": "He heard (To hear/listen)",
+    "partOfSpeech": "verb",
+    "exampleSentence": {
+      "arabic": "سَمِعَ الأَذَانَ",
+      "translation": "He heard the call to prayer"
+    }
+  },
+  {
+    "id": "119",
+    "word": "wāhid",
+    "arabic": "وَاحِد",
+    "meaning": "One (1)",
+    "partOfSpeech": "number",
+    "exampleSentence": {
+      "arabic": "عِنْدِي قَلَمٌ وَاحِدٌ",
+      "translation": "I have one pen"
+    }
+  },
+  {
+    "id": "120",
+    "word": "ithnān",
+    "arabic": "اِثْنَان",
+    "meaning": "Two (2)",
+    "partOfSpeech": "number",
+    "exampleSentence": {
+      "arabic": "عِنْدِي كِتَابَانِ اثْنَانِ",
+      "translation": "I have two books"
+    }
+  },
+  {
+    "word": "thalāthah",
+    "arabic": "ثَلَاثَة",
+    "meaning": "Three (3)",
+    "partOfSpeech": "number",
+    "exampleSentence": {
+      "arabic": "عِنْدِي ثَلَاثَةُ إِخْوَةٍ",
+      "translation": "I have three brothers"
+    },
+    "id": "121"
+  },
+  {
+    "word": "arba'ah",
+    "arabic": "أَرْبَعَة",
+    "meaning": "Four (4)",
+    "partOfSpeech": "number",
+    "exampleSentence": {
+      "arabic": "أَرْبَعَةُ كُتُبٍ",
+      "translation": "Four books"
+    },
+    "id": "122"
+  },
+  {
+    "word": "khamsah",
+    "arabic": "خَمْسَة",
+    "meaning": "Five (5)",
+    "partOfSpeech": "number",
+    "exampleSentence": {
+      "arabic": "خَمْسُ صَلَوَاتٍ فِي اليَوْمِ",
+      "translation": "Five prayers in the day"
+    },
+    "id": "123"
+  },
+  {
+    "word": "sittah",
+    "arabic": "سِتَّة",
+    "meaning": "Six (6)",
+    "partOfSpeech": "number",
+    "exampleSentence": {
+      "arabic": "السَّاعَةُ السَّادِسَةُ",
+      "translation": "Six o'clock"
+    },
+    "id": "124"
+  },
+  {
+    "word": "sab'ah",
+    "arabic": "سَبْعَة",
+    "meaning": "Seven (7)",
+    "partOfSpeech": "number",
+    "exampleSentence": {
+      "arabic": "سَبْعَةُ أَيَّامٍ فِي الأُسْبُوعِ",
+      "translation": "Seven days in the week"
+    },
+    "id": "125"
+  },
+  {
+    "word": "thamāniyah",
+    "arabic": "ثَمَانِيَة",
+    "meaning": "Eight (8)",
+    "partOfSpeech": "number",
+    "exampleSentence": {
+      "arabic": "ثَمَانِيَةُ طُلَّابٍ",
+      "translation": "Eight students"
+    },
+    "id": "126"
+  },
+  {
+    "word": "tis'ah",
+    "arabic": "تِسْعَة",
+    "meaning": "Nine (9)",
+    "partOfSpeech": "number",
+    "exampleSentence": {
+      "arabic": "تِسْعُ غُرَفٍ",
+      "translation": "Nine rooms"
+    },
+    "id": "127"
+  },
+  {
+    "word": "'asharah",
+    "arabic": "عَشَرَة",
+    "meaning": "Ten (10)",
+    "partOfSpeech": "number",
+    "exampleSentence": {
+      "arabic": "عَشَرَةُ دَرَاهِمَ",
+      "translation": "Ten dirhams"
+    },
+    "id": "128"
+  },
+  {
+    "word": "al-ahad",
+    "arabic": "الأَحَد",
+    "meaning": "Sunday",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "اليَوْمُ يَوْمُ الأَحَدِ",
+      "translation": "Today is Sunday"
+    },
+    "id": "129"
+  },
+  {
+    "word": "al-ithnayn",
+    "arabic": "الإِثْنَيْن",
+    "meaning": "Monday",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "أَدْرُسُ يَوْمَ الإِثْنَيْنِ",
+      "translation": "I study on Monday"
+    },
+    "id": "130"
+  },
+  {
+    "word": "ath-thulāthā'",
+    "arabic": "الثُّلَاثَاء",
+    "meaning": "Tuesday",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "يَوْمُ الثُّلَاثَاءِ جَمِيلٌ",
+      "translation": "Tuesday is nice"
+    },
+    "id": "131"
+  },
+  {
+    "word": "al-arbi'ā'",
+    "arabic": "الأَرْبِعَاء",
+    "meaning": "Wednesday",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "أَلْتَقِي بِكَ يَوْمَ الأَرْبِعَاءِ",
+      "translation": "I meet you on Wednesday"
+    },
+    "id": "132"
+  },
+  {
+    "word": "al-khamīs",
+    "arabic": "الخَمِيس",
+    "meaning": "Thursday",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "غَدًا يَوْمُ الخَمِيسِ",
+      "translation": "Tomorrow is Thursday"
+    },
+    "id": "133"
+  },
+  {
+    "word": "al-jumu'ah",
+    "arabic": "الجُمُعَة",
+    "meaning": "Friday",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "صَلَاةُ الجُمُعَةِ مَسْجِدٌ كَبِيرٌ",
+      "translation": "Friday prayer is in a big mosque"
+    },
+    "id": "134"
+  },
+  {
+    "word": "as-sabt",
+    "arabic": "السَّبْت",
+    "meaning": "Saturday",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "يَوْمُ السَّبْتِ عُطْلَةٌ",
+      "translation": "Saturday is a holiday"
+    },
+    "id": "135"
+  },
+  {
+    "word": "ams",
+    "arabic": "أَمْس",
+    "meaning": "Yesterday",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "كُنْتُ فِي المَنْزِلِ أَمْسِ",
+      "translation": "I was at home yesterday"
+    },
+    "id": "136"
+  },
+  {
+    "word": "ghadan",
+    "arabic": "غَدًا",
+    "meaning": "Tomorrow",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "أَرَاكَ غَدًا إِنْ شَاءَ اللهُ",
+      "translation": "I will see you tomorrow God willing"
+    },
+    "id": "137"
+  },
+  {
+    "word": "shahr / shahrun",
+    "arabic": "شَهْر",
+    "meaning": "Month",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "شَهْرُ رَمَضَانَ المُبَارَكُ",
+      "translation": "The blessed month of Ramadan"
+    },
+    "id": "138"
+  },
+  {
+    "word": "sanah / sanatan",
+    "arabic": "سَنَة",
+    "meaning": "Year",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "كُلُّ سَنَةٍ وَأَنْتُمْ بِخَيْرٍ",
+      "translation": "May you be well every year (Greeting)"
+    },
+    "id": "139"
+  },
+  {
+    "word": "waqt / waqtun",
+    "arabic": "وَقْت",
+    "meaning": "Time",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "الوِقْتُ كَالذَّهَبِ",
+      "translation": "Time is like gold"
+    },
+    "id": "140"
+  },
+  {
+    "word": "daqīqah / daqeeqah",
+    "arabic": "دَقِيقَة",
+    "meaning": "Minute",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "انْتَظِرْ دَقِيقَةً وَاحِدَةً",
+      "translation": "Wait one minute"
+    },
+    "id": "141"
+  },
+  {
+    "word": "abyad",
+    "arabic": "أَبْيَض",
+    "meaning": "White",
+    "partOfSpeech": "adjective",
+    "exampleSentence": {
+      "arabic": "هَذَا قَمِيصٌ أَبْيَضُ",
+      "translation": "This is a white shirt"
+    },
+    "id": "142"
+  },
+  {
+    "word": "aswad",
+    "arabic": "أَسْوَد",
+    "meaning": "Black",
+    "partOfSpeech": "adjective",
+    "exampleSentence": {
+      "arabic": "القَلَمُ أَسْوَدُ",
+      "translation": "The pen is black"
+    },
+    "id": "143"
+  },
+  {
+    "word": "ahmar",
+    "arabic": "أَحْمَر",
+    "meaning": "Red",
+    "partOfSpeech": "adjective",
+    "exampleSentence": {
+      "arabic": "التُّفَّاحُ أَحْمَرُ",
+      "translation": "The apple is red"
+    },
+    "id": "144"
+  },
+  {
+    "word": "azraq",
+    "arabic": "أَزْرَق",
+    "meaning": "Blue",
+    "partOfSpeech": "adjective",
+    "exampleSentence": {
+      "arabic": "السَّمَاءُ زَرْقَاءُ",
+      "translation": "The sky is blue"
+    },
+    "id": "145"
+  },
+  {
+    "word": "akhdar",
+    "arabic": "أَخْضَر",
+    "meaning": "Green",
+    "partOfSpeech": "adjective",
+    "exampleSentence": {
+      "arabic": "الشَّجَرُ أَخْضَرُ",
+      "translation": "The tree is green"
+    },
+    "id": "146"
+  },
+  {
+    "word": "asfar",
+    "arabic": "أَصْفَر",
+    "meaning": "Yellow",
+    "partOfSpeech": "adjective",
+    "exampleSentence": {
+      "arabic": "الشَّمْسُ صَفْرَاءُ",
+      "translation": "The sun is yellow"
+    },
+    "id": "147"
+  },
+  {
+    "word": "ra's / ra'sun",
+    "arabic": "رَأْس",
+    "meaning": "Head",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "رَأْسِي يُؤْلِمُنِي",
+      "translation": "My head hurts"
+    },
+    "id": "148"
+  },
+  {
+    "word": "'ayn / 'aynun",
+    "arabic": "عَيْن",
+    "meaning": "Eye",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "عَيْنَاكَ جَمِيلَتَانِ",
+      "translation": "Your eyes are beautiful"
+    },
+    "id": "149"
+  },
+  {
+    "word": "udhun / udhunun",
+    "arabic": "أُذُن",
+    "meaning": "Ear",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "أَسْمَعُ بِأُذُنِي",
+      "translation": "I hear with my ear"
+    },
+    "id": "150"
+  },
+  {
+    "word": "anf / anfun",
+    "arabic": "أَنْف",
+    "meaning": "Nose",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "أَشُمُّ بِالأَنْفِ",
+      "translation": "I smell with the nose"
+    },
+    "id": "151"
+  },
+  {
+    "word": "fam / famun",
+    "arabic": "فَم",
+    "meaning": "Mouth",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "افْتَحْ فَمَكَ",
+      "translation": "Open your mouth"
+    },
+    "id": "152"
+  },
+  {
+    "word": "yad / yadun",
+    "arabic": "يَد",
+    "meaning": "Hand",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "اغْسِلْ يَدَكَ بِالمَاءِ",
+      "translation": "Wash your hand with water"
+    },
+    "id": "153"
+  },
+  {
+    "word": "rijl / rijlun",
+    "arabic": "رِجْل",
+    "meaning": "Leg / Foot",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "أَمْشِي عَلَى رِجْلَيَّ",
+      "translation": "I walk on my feet"
+    },
+    "id": "154"
+  },
+  {
+    "word": "qalb / qalbun",
+    "arabic": "قَلْب",
+    "meaning": "Heart",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "قَلْبٌ سَلِيمٌ",
+      "translation": "A sound heart"
+    },
+    "id": "155"
+  },
+  {
+    "word": "qamīs / qamees",
+    "arabic": "قَمِيص",
+    "meaning": "Shirt",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "هَذَا قَمِيصٌ جَدِيدٌ",
+      "translation": "This is a new shirt"
+    },
+    "id": "156"
+  },
+  {
+    "word": "sirwāl / sirwalun",
+    "arabic": "سِرْوَال",
+    "meaning": "Pants / Trousers",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "اشْتَرَيْتُ سِرْوَالًا",
+      "translation": "I bought pants"
+    },
+    "id": "157"
+  },
+  {
+    "word": "hidhā' / hidhaa'un",
+    "arabic": "حِذَاء",
+    "meaning": "Shoes",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "الحِذَاءُ عِنْدَ البَابِ",
+      "translation": "The shoes are by the door"
+    },
+    "id": "158"
+  },
+  {
+    "word": "miftāh / miftaahun",
+    "arabic": "مِفْتَاح",
+    "meaning": "Key",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "أَيْنَ مِفْتَاحُ البَيْتِ؟",
+      "translation": "Where is the house key?"
+    },
+    "id": "159"
+  },
+  {
+    "word": "nuqūd / māl",
+    "arabic": "نُقُود",
+    "meaning": "Money",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "عِنْدِي نُقُودٌ فِي الجَيْبِ",
+      "translation": "I have money in the pocket"
+    },
+    "id": "160"
+  },
+  {
+    "word": "haqībah / haqeebah",
+    "arabic": "حَقِيبَة",
+    "meaning": "Bag / Suitcase",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "الحَقِيبَةُ عَلَى المَكْتَبِ",
+      "translation": "The bag is on the desk"
+    },
+    "id": "161"
+  },
+  {
+    "word": "bahr / bahrun",
+    "arabic": "بَحْر",
+    "meaning": "Sea / Ocean",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "المَاءُ فِي البَحْرِ كَثِيرٌ",
+      "translation": "Water in the sea is abundant"
+    },
+    "id": "162"
+  },
+  {
+    "word": "nahr / nahrun",
+    "arabic": "نَهْر",
+    "meaning": "River",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "هَذَا نَهْرٌ عَذْبٌ",
+      "translation": "This is a sweet freshwater river"
+    },
+    "id": "163"
+  },
+  {
+    "word": "samā' / samaa'un",
+    "arabic": "سَمَاء",
+    "meaning": "Sky / Heaven",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "السَّمَاءُ صَافِيَةٌ اليَوْمَ",
+      "translation": "The sky is clear today"
+    },
+    "id": "164"
+  },
+  {
+    "word": "matar / matarun",
+    "arabic": "مَطَر",
+    "meaning": "Rain",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "يَنْزِلُ المَطَرُ مِنَ السَّمَاءِ",
+      "translation": "Rain falls from the sky"
+    },
+    "id": "165"
+  },
+  {
+    "word": "shajarah / shajaratun",
+    "arabic": "شَجَرَة",
+    "meaning": "Tree",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "الشَّجَرَةُ كَبِيرَةٌ وَخَضْرَاءُ",
+      "translation": "The tree is big and green"
+    },
+    "id": "166"
+  },
+  {
+    "word": "wardah / zahrah",
+    "arabic": "وَرْدَة",
+    "meaning": "Rose / Flower",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "هَذِهِ وَرْدَةٌ جَمِيلَةٌ",
+      "translation": "This is a beautiful rose"
+    },
+    "id": "167"
+  },
+  {
+    "word": "qitt / qittah",
+    "arabic": "قِطّ",
+    "meaning": "Cat",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "القِطُّ يَنَامُ تَحْتَ الكُرْسِيِّ",
+      "translation": "The cat sleeps under the chair"
+    },
+    "id": "168"
+  },
+  {
+    "word": "kalb / kalbun",
+    "arabic": "كَلْب",
+    "meaning": "Dog",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "الكَلْبُ أَمَامَ البَابِ",
+      "translation": "The dog is in front of the door"
+    },
+    "id": "169"
+  },
+  {
+    "word": "dakhala",
+    "arabic": "دَخَلَ",
+    "meaning": "He entered (To enter)",
+    "partOfSpeech": "verb",
+    "exampleSentence": {
+      "arabic": "دَخَلَ الطَّالِبُ الفَصْلَ",
+      "translation": "The student entered the classroom"
+    },
+    "id": "170"
+  },
+  {
+    "word": "kharaja",
+    "arabic": "خَرَجَ",
+    "meaning": "He exited / left (To exit)",
+    "partOfSpeech": "verb",
+    "exampleSentence": {
+      "arabic": "خَرَجَ الرَّجُلُ مِنَ المَسْجِدِ",
+      "translation": "The man left the mosque"
+    },
+    "id": "171"
+  },
+  {
+    "word": "fataha",
+    "arabic": "فَتَحَ",
+    "meaning": "He opened (To open)",
+    "partOfSpeech": "verb",
+    "exampleSentence": {
+      "arabic": "فَتَحَ الوَلَدُ الكِتَابَ",
+      "translation": "The boy opened the book"
+    },
+    "id": "172"
+  },
+  {
+    "word": "aghlaqa",
+    "arabic": "أَغْلَقَ",
+    "meaning": "He closed (To close)",
+    "partOfSpeech": "verb",
+    "exampleSentence": {
+      "arabic": "أَغْلَقَ الأُسْتَاذُ البَابَ",
+      "translation": "The teacher closed the door"
+    },
+    "id": "173"
+  },
+  {
+    "word": "al-ān",
+    "arabic": "الآن",
+    "meaning": "Now / At present",
+    "partOfSpeech": "adverb",
+    "exampleSentence": {
+      "arabic": "أَنَا جَاهِزٌ الآنَ",
+      "translation": "I am ready now"
+    },
+    "id": "174"
+  },
+  {
+    "word": "al-yawm",
+    "arabic": "اليَوْم",
+    "meaning": "Today",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "اليَوْمَ الجَوُّ جَمِيلٌ",
+      "translation": "Today the weather is beautiful"
+    },
+    "id": "175"
   }
 ]
-

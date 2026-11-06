@@ -90,9 +90,41 @@ Speed up flashcard sessions using keyboard controls:
 
 ---
 
-## 🗂️ Data Source & Customization (`data/vocabulary.json`)
+## 🗂️ Unified Vocabulary Dataset (`data/vocabulary.json`)
 
-The vocabulary source data is located at [`data/vocabulary.json`](data/vocabulary.json) and mirrored at [`public/vocabulary.json`](public/vocabulary.json).
+The vocabulary data is consolidated in [`data/vocabulary.json`](data/vocabulary.json) containing **175 progressive words**. It is structured from the most fundamental notebook phrases to daily objects, family, food, adjectives, and core action verbs:
+
+1. **Notebook Greetings, Introductions & Courtesy**:
+   - `salām` (Peace), `tahiyyah` (Greeting), `ta'āruf` (Getting to know each other), `hiwār` (Conversation), `ism` (Name), `kayfa / kaifa` (How), `hāl` (Condition/State), `hamd` (Praise), `khayr / khair` (Good/Well), `khaleel` (Friend), `dars` (Lesson), `wahdah / wahdatun` (Unit/Chapter), `awwal` (First - M), `ūlā / uula` (First - F), `'ard / ardun` (Presentation/Display).
+2. **Notebook Demonstrative Pronouns**:
+   - `hādhā / haadha` (This - M), `hādhihi / haadhihi` (This - F), `dhālika / dhaalika` (That - M), `tilka` (That - F).
+3. **Notebook Essential Prepositions & Particles**:
+   - `fī / fi` (In), `ilā / ila` (To), `'alā / 'ala` (On), `a'lā / a'ala` (Highest / On top of), `min` (From), `li` (For), `ma'a / ma'` (With), `bi` (At/In/With), `hattā / hatta` (Until/Till), `mundhu` (Since), `'an` (About), `ka` (Like).
+4. **Personal Pronouns & Question Words**:
+   - `anā` (I), `anta` / `anti` (You), `huwa` (He), `hiya` (She), `nahnu` (We), `hum` (They).
+   - `mā` / `mādhā` (What), `man` (Who), `ayna` (Where), `matā` (When), `limādhā` (Why), `kam` (How many / How much).
+5. **Numbers 1 to 10**:
+   - `wāhid` (1), `ithnān` (2), `thalāthah` (3), `arba'ah` (4), `khamsah` (5), `sittah` (6), `sab'ah` (7), `thamāniyah` (8), `tis'ah` (9), `'asharah` (10).
+6. **Days of the Week & Calendar**:
+   - `al-ahad` (Sunday), `al-ithnayn` (Monday), `ath-thulāthā'` (Tuesday), `al-arbi'ā'` (Wednesday), `al-khamīs` (Thursday), `al-jumu'ah` (Friday), `as-sabt` (Saturday), `ams` (Yesterday), `ghadan` (Tomorrow), `shahr` (Month), `sanah` (Year), `waqt` (Time), `daqīqah` (Minute).
+7. **Colors**:
+   - `abyad` (White), `aswad` (Black), `ahmar` (Red), `azraq` (Blue), `akhdar` (Green), `asfar` (Yellow).
+8. **Body Parts**:
+   - `ra's` (Head), `'ayn` (Eye), `udhun` (Ear), `anf` (Nose), `fam` (Mouth), `yad` (Hand), `rijl` (Foot/Leg), `qalb` (Heart).
+9. **Clothes, Personal Items & Nature**:
+   - `qamīs` (Shirt), `sirwāl` (Pants), `hidhā'` (Shoes), `miftāh` (Key), `nuqūd` (Money), `haqībah` (Bag), `bahr` (Sea), `nahr` (River), `samā'` (Sky), `matar` (Rain), `shajarah` (Tree), `wardah` (Flower), `qitt` (Cat), `kalb` (Dog).
+10. **Classroom, Household & Daily Life Objects**:
+    - `kitāb / kitābun` (Book), `qalam` (Pen), `daftar` (Notebook), `maktab` (Desk), `kursī` (Chair), `bāb` (Door), `shubbāk` (Window), `sayyārah` (Car), `bayt` (House), `ghurfah` (Room), `jawwāl` (Phone), `sā'ah` (Clock).
+11. **Family Members & People**:
+    - `umm` (Mother), `ab` (Father), `akh` (Brother), `ukht` (Sister), `ibn` (Son), `bint` (Daughter/Girl), `rajul` (Man), `imra'ah` (Woman), `ustādh` / `mudarris` (Teacher), `tālib` (Student).
+12. **Places, Cities & Travel**:
+    - `madrasah` (School), `jāmi'ah` (University), `maktabah` (Library), `masjid` (Mosque), `sūq` (Market), `mustashfā` (Hospital), `mat'am` (Restaurant), `funduq` (Hotel), `matār` (Airport), `madīnah` (City).
+13. **Food & Drinks**:
+    - `mā'` (Water), `khubz` (Bread), `shay` (Tea), `qahwah` (Coffee), `halīb` (Milk), `lahm` (Meat), `dajāj` (Chicken), `samak` (Fish), `tamr` (Dates).
+14. **Common Descriptive Adjectives**:
+    - `kabīr` (Big), `saghīr` (Small), `jadīd` (New), `qadīm` (Old), `jamīl` (Beautiful), `qarīb` (Near), `ba'īd` (Far), `sahīh` (Correct), `kathīr` (Many), `qalīl` (Few), `sahl` (Easy), `sa'b` (Difficult).
+15. **Core Action Verbs**:
+    - `qara'a` (He read), `kataba` (He wrote), `dhahaba` (He went), `raj'a` (He returned), `shāhada` (He watched), `dakhala` (He entered), `kharaja` (He left), `fataha` (He opened), `aghlaqa` (He closed), `akala` (He ate), `shariba` (He drank), `fahima` (He understood), `samia` (He heard), `darasa` (He studied).
 
 ### Minimal Schema (Word & Meaning Only)
 
@@ -164,9 +196,9 @@ arabic-vocab-builder/
 │   ├── JsonModal.tsx       # Modal for viewing, editing, copying & downloading JSON
 │   └── icons.tsx           # Handcrafted, zero-dependency SVG icon components
 ├── data/
-│   └── vocabulary.json     # Primary bundled JSON vocabulary list
+│   └── vocabulary.json     # Consolidated progressive vocabulary list (175 words)
 ├── public/
-│   ├── vocabulary.json     # Public static copy for direct HTTP download / inspection
+│   ├── vocabulary.json     # Static copy for direct HTTP download / inspection
 │   └── favicon.ico
 ├── types/
 │   └── vocabulary.ts       # TypeScript interfaces (VocabWord, ViewMode, FilterMode)

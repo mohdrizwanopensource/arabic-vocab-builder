@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import { VocabWord } from "@/types/vocabulary";
+import defaultVocabulary from "@/data/vocabulary.json";
 import { CrossIcon } from "./icons";
 
 interface JsonModalProps {
@@ -80,6 +81,7 @@ export function JsonModal({
     URL.revokeObjectURL(url);
   };
 
+
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/40 backdrop-blur-xs animate-card-in">
       <div className="w-full max-w-2xl bg-[#faf7ee] rounded-3xl p-6 sm:p-7 shadow-2xl border border-[#ede5d4] max-h-[90vh] flex flex-col">
@@ -89,30 +91,27 @@ export function JsonModal({
               JSON Vocabulary Source
             </h3>
             <p className="text-xs text-[#6e887f] mt-0.5">
-              Source file: <code className="bg-[#eee7d6] px-1.5 py-0.5 rounded text-[#223a31]">data/vocabulary.json</code>
+              File: <code className="bg-[#eee7d6] px-1.5 py-0.5 rounded text-[#223a31]">data/vocabulary.json</code> ({words.length} items loaded)
             </p>
           </div>
           <button
             type="button"
             onClick={onClose}
-            className="p-1.5 rounded-full text-[#6b857c] hover:text-[#243c33] hover:bg-[#ede5d4] transition-colors"
+            className="p-1.5 rounded-full text-[#6b857c] hover:text-[#243c33] hover:bg-[#ede5d4] transition-colors cursor-pointer"
           >
             <CrossIcon className="w-5 h-5" />
           </button>
         </div>
 
         {/* Info banner */}
-        <div className="mt-4 p-3 bg-[#e9f4ef] border border-[#c1e2d6] rounded-2xl text-xs text-[#2b4b40] leading-relaxed">
-          <p className="font-semibold mb-0.5">💡 Easy Customization</p>
+        <div className="mt-3 p-2.5 bg-[#f5f1e5] border border-[#e4dcce] rounded-xl text-xs text-[#4b635a] leading-relaxed">
           <p>
-            You can edit words right here, or open{" "}
-            <span className="font-mono font-semibold">data/vocabulary.json</span> directly in your project.
-            Only <span className="font-semibold">&quot;word&quot;</span> and <span className="font-semibold">&quot;meaning&quot;</span> are required (e.g. <span className="italic">&quot;kitab/kitabun - book&quot;</span>). Arabic script and examples are optional!
+            You can edit words below, or paste your own JSON. Only <span className="font-semibold text-[#253e34]">&quot;word&quot;</span> and <span className="font-semibold text-[#253e34]">&quot;meaning&quot;</span> are required (e.g. <span className="italic">&quot;haadha - This(M)&quot;</span>). Arabic script and examples are optional.
           </p>
         </div>
 
         {/* Textarea */}
-        <div className="mt-4 flex-1 flex flex-col min-h-[260px]">
+        <div className="mt-3 flex-1 flex flex-col min-h-[240px]">
           <textarea
             value={jsonText}
             onChange={(e) => {
@@ -130,33 +129,33 @@ export function JsonModal({
         </div>
 
         {/* Modal actions */}
-        <div className="flex flex-wrap items-center justify-between pt-4 gap-2 border-t border-[#e9e1d0] mt-4">
+        <div className="flex flex-wrap items-center justify-between pt-4 gap-2 border-t border-[#e9e1d0] mt-3">
           <div className="flex items-center gap-2">
             <button
               type="button"
               onClick={handleCopy}
-              className="px-3.5 py-2 rounded-xl text-xs font-semibold bg-[#ede6d4] hover:bg-[#e4dcba] text-[#2c443b] transition-colors"
+              className="px-3 py-2 rounded-xl text-xs font-semibold bg-[#ede6d4] hover:bg-[#e4dcba] text-[#2c443b] transition-colors cursor-pointer"
             >
               {copySuccess ? "✓ Copied to clipboard!" : "Copy JSON"}
             </button>
             <button
               type="button"
               onClick={handleDownload}
-              className="px-3.5 py-2 rounded-xl text-xs font-semibold bg-[#ede6d4] hover:bg-[#e4dcba] text-[#2c443b] transition-colors"
+              className="px-3 py-2 rounded-xl text-xs font-semibold bg-[#ede6d4] hover:bg-[#e4dcba] text-[#2c443b] transition-colors cursor-pointer"
             >
               Download JSON
             </button>
             <button
               type="button"
               onClick={() => {
-                if (confirm("Reset words to default sample deck?")) {
+                if (confirm(`Reset current deck back to the default list (${defaultVocabulary.length} words)?`)) {
                   onResetToDefault();
                   onClose();
                 }
               }}
-              className="px-3 py-2 rounded-xl text-xs font-medium text-[#7d948b] hover:text-rose-600 transition-colors"
+              className="px-2.5 py-2 rounded-xl text-xs font-medium text-[#7d948b] hover:text-rose-600 transition-colors cursor-pointer"
             >
-              Reset to Defaults
+              Reset to Default
             </button>
           </div>
 
@@ -164,14 +163,14 @@ export function JsonModal({
             <button
               type="button"
               onClick={onClose}
-              className="px-4 py-2 rounded-xl text-xs font-semibold text-[#546e65] hover:bg-[#ede5d4] transition-colors"
+              className="px-4 py-2 rounded-xl text-xs font-semibold text-[#546e65] hover:bg-[#ede5d4] transition-colors cursor-pointer"
             >
               Close
             </button>
             <button
               type="button"
               onClick={handleApply}
-              className="px-5 py-2 rounded-xl text-xs font-semibold text-white bg-[#3b8c72] hover:bg-[#327a63] shadow-md transition-all active:scale-95"
+              className="px-5 py-2 rounded-xl text-xs font-semibold text-white bg-[#3b8c72] hover:bg-[#327a63] shadow-md transition-all active:scale-95 cursor-pointer"
             >
               Apply JSON Changes
             </button>
@@ -181,4 +180,3 @@ export function JsonModal({
     </div>
   );
 }
-

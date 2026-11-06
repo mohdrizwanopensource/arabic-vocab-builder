@@ -24,14 +24,49 @@ export default function HomePage() {
   const [isJsonModalOpen, setIsJsonModalOpen] = useState(false);
   const [isHydrated, setIsHydrated] = useState(false);
 
-  // Initialize and load from localStorage
+  // Initialize and load from localStorage with intelligent sync
   useEffect(() => {
     try {
       const stored = localStorage.getItem(STORAGE_KEY);
       if (stored) {
         const parsed = JSON.parse(stored);
         if (Array.isArray(parsed) && parsed.length > 0) {
-          setWords(parsed);
+          const defaultList = defaultVocabulary as VocabWord[];
+          const progressMap = new Map<string, { isLearned?: boolean; isStillLearning?: boolean; isBookmarked?: boolean }>();
+          const customWords: VocabWord[] = [];
+
+          const defaultWordKeys = new Set(defaultList.map((w) => (w.word || "").toLowerCase().trim()));
+
+          for (const item of parsed) {
+            const key = (item.word || "").toLowerCase().trim();
+            if (defaultWordKeys.has(key)) {
+              progressMap.set(key, {
+                isLearned: item.isLearned,
+                isStillLearning: item.isStillLearning,
+                isBookmarked: item.isBookmarked,
+              });
+            } else {
+              // Custom user-added card in UI
+              customWords.push(item);
+            }
+          }
+
+          // Apply saved progress to default vocabulary
+          const merged: VocabWord[] = defaultList.map((w) => {
+            const key = (w.word || "").toLowerCase().trim();
+            const progress = progressMap.get(key);
+            if (progress) {
+              return {
+                ...w,
+                isLearned: !!progress.isLearned,
+                isStillLearning: !!progress.isStillLearning,
+                isBookmarked: !!progress.isBookmarked,
+              };
+            }
+            return w;
+          });
+
+          setWords([...merged, ...customWords]);
           setIsHydrated(true);
           return;
         }
@@ -39,6 +74,7 @@ export default function HomePage() {
     } catch {
       // Fallback to default
     }
+    // Default to the full vocabulary list
     setWords(defaultVocabulary as VocabWord[]);
     setIsHydrated(true);
   }, []);
@@ -304,29 +340,29 @@ export default function HomePage() {
         <div className="w-full bg-[#efebe0]/80 backdrop-blur-xs border border-[#e2d9c7] rounded-2xl p-3 sm:p-4 mb-8 shadow-xs flex flex-col md:flex-row md:items-center md:justify-between gap-3">
           {/* Deck Filters */}
           <div className="flex flex-wrap items-center gap-1.5 text-xs">
-            <span className="text-[#6d857d] font-semibold mr-1">Filter:</span>
-            {(["all", "learning", "known", "bookmarked"] as FilterMode[]).map((mode) => (
-              <button
-                key={mode}
-                type="button"
-                onClick={() => {
-                  setFilterMode(mode);
-                  setCurrentIndex(0);
-                  setIsRevealed(false);
-                }}
-                className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all cursor-pointer ${
-                  filterMode === mode
-                    ? "bg-[#28433a] text-white shadow-xs"
-                    : "text-[#587369] hover:bg-[#e4ddcb]"
-                }`}
-              >
-                {mode === "all" && `All (${words.length})`}
-                {mode === "learning" && `Still Learning (${learningCount})`}
-                {mode === "known" && `Known (${learnedCount})`}
-                {mode === "bookmarked" && `Bookmarked (${bookmarkedCount})`}
-              </button>
-            ))}
-          </div>
+              <span className="text-[#6d857d] font-semibold mr-1">Filter:</span>
+              {(["all", "learning", "known", "bookmarked"] as FilterMode[]).map((mode) => (
+                <button
+                  key={mode}
+                  type="button"
+                  onClick={() => {
+                    setFilterMode(mode);
+                    setCurrentIndex(0);
+                    setIsRevealed(false);
+                  }}
+                  className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all cursor-pointer ${
+                    filterMode === mode
+                      ? "bg-[#28433a] text-white shadow-xs"
+                      : "text-[#587369] hover:bg-[#e4ddcb]"
+                  }`}
+                >
+                  {mode === "all" && `All (${words.length})`}
+                  {mode === "learning" && `Still Learning (${learningCount})`}
+                  {mode === "known" && `Known (${learnedCount})`}
+                  {mode === "bookmarked" && `Bookmarked (${bookmarkedCount})`}
+                </button>
+              ))}
+            </div>
 
           {/* Display Mode Switcher (Single vs Side-by-Side Comparison) */}
           <div className="flex items-center gap-3">
@@ -484,7 +520,7 @@ export default function HomePage() {
           >
             data/vocabulary.json
           </button>
-          . Word and meaning are all you need to start.
+          {" "}({words.length} words). Word and meaning are all you need to start.
         </p>
       </footer>
 
