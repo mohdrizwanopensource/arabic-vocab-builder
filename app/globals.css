@@ -1,26 +1,59 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg-page: #f6f3eb;
+  --bg-phone: #bde5db;
+  --bg-card: #fdfcf8;
+  --text-main: #243a33;
+  --text-subtle: #6c837b;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  body {
+    background-color: var(--bg-page);
+    color: var(--text-main);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
   }
-}
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-}
+
+      .font-arabic {
+        font-family: "Amiri", "Traditional Arabic", "Scheherazade New", "Noto Naskh Arabic", "Noto Sans Arabic", "Segoe UI", Tahoma, sans-serif;
+      }
+
+      /* Card flip / reveal animations */
+      @keyframes fadeInScale {
+        from {
+          opacity: 0;
+          transform: scale(0.97);
+        }
+
+        to {
+          opacity: 1;
+          transform: scale(1);
+        }
+      }
+
+
+        .animate-card-in {
+          animation: fadeInScale 0.22s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+
+        /* Custom subtle scrollbar */
+        ::-webkit-scrollbar {
+          width: 6px;
+          height: 6px;
+        }
+
+        ::-webkit-scrollbar-track {
+          background: transparent;
+        }
+
+        ::-webkit-scrollbar-thumb {
+          background: rgba(44, 62, 56, 0.15);
+          border-radius: 9999px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+          background: rgba(44, 62, 56, 0.25);
+        }

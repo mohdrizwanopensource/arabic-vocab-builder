@@ -1,0 +1,149 @@
+[
+  {
+    "id": "1",
+    "word": "kitāb / kitābun",
+    "arabic": "كِتَاب",
+    "meaning": "Book",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "هَذَا كِتَابٌ جَدِيدٌ",
+      "translation": "This is a new book"
+    }
+  },
+  {
+    "id": "2",
+    "word": "qalam / qalamun",
+    "arabic": "قَلَم",
+    "meaning": "Pen",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "القَلَمُ عَلَى المَكْتَبِ",
+      "translation": "The pen is on the desk"
+    }
+  },
+  {
+    "id": "3",
+    "word": "bayt / baytun",
+    "arabic": "بَيْت",
+    "meaning": "House",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "هَذَا بَيْتٌ كَبِيرٌ وَجَمِيلٌ",
+      "translation": "This is a big and beautiful house"
+    }
+  },
+  {
+    "id": "4",
+    "word": "madrasah / madrasatun",
+    "arabic": "مَدْرَسَة",
+    "meaning": "School",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "المَدْرَسَةُ قَرِيبَةٌ مِنْ هُنَا",
+      "translation": "The school is close to here"
+    }
+  },
+  {
+    "id": "5",
+    "word": "sayyārah / sayyāratun",
+    "arabic": "سَيَّارَة",
+    "meaning": "Car",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "السَّيَّارَةُ سَرِيعَةٌ جِدًّا",
+      "translation": "The car is very fast"
+    }
+  },
+  {
+    "id": "6",
+    "word": "bāb / bābun",
+    "meaning": "Door",
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "7",
+    "word": "kursī / kursiyyun",
+    "meaning": "Chair",
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "8",
+    "word": "maktab / maktabun",
+    "arabic": "مَكْتَب",
+    "meaning": "Desk / Office",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "جَلَسَ الوَلَدُ عَلَى المَكْتَبِ",
+      "translation": "The boy sat at the desk"
+    }
+  },
+  {
+    "id": "9",
+    "word": "shams",
+    "arabic": "شَمْس",
+    "meaning": "Sun",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "الشَّمْسُ مُشْرِقَةٌ اليَوْمَ",
+      "translation": "The sun is bright today"
+    }
+  },
+  {
+    "id": "10",
+    "word": "qamar",
+    "arabic": "قَمَر",
+    "meaning": "Moon",
+    "partOfSpeech": "noun",
+    "exampleSentence": {
+      "arabic": "القَمَرُ جَمِيلٌ فِي اللَّيْلِ",
+      "translation": "The moon is beautiful at night"
+    }
+  },
+  {
+    "id": "11",
+    "word": "mā' / mā'un",
+    "meaning": "Water",
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "12",
+    "word": "shukran",
+    "meaning": "Thank you",
+    "partOfSpeech": "expression"
+  },
+  {
+    "id": "13",
+    "word": "ta'allama",
+    "arabic": "تَعَلَّمَ",
+    "meaning": "To learn",
+    "partOfSpeech": "verb",
+    "exampleSentence": {
+      "arabic": "تَعَلَّمَ الطَّالِبُ كَلِمَاتٍ جَدِيدَةً",
+      "translation": "The student learned new words"
+    }
+  },
+  {
+    "id": "14",
+    "word": "jamīl / jamīlun",
+    "arabic": "جَمِيل",
+    "meaning": "Beautiful / Handsome",
+    "partOfSpeech": "adjective",
+    "exampleSentence": {
+      "arabic": "المَنْظَرُ جَمِيلٌ جِدًّا",
+      "translation": "The view is very beautiful"
+    }
+  },
+  {
+    "id": "15",
+    "word": "kabīr",
+    "meaning": "Big / Large",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "16",
+    "word": "ṣaghīr",
+    "meaning": "Small / Little",
+    "partOfSpeech": "adjective"
+  }
+]
+
